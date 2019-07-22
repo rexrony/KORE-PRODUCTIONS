@@ -1,0 +1,1 @@
+$(window).mousemove(function(a){$(".rotation").css({"margin-left":-.02*a.pageX,"margin-top":-.02*a.pageY}),$("#rotate2").css({"margin-left":-.05*a.pageX,"margin-top":-.05*a.pageY})});

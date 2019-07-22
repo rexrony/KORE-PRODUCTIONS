@@ -1,0 +1,4 @@
+//Caching schema
+<FilesMatch "\.(css|jpg|jpeg|png|gif|js)$">
+Header set Cache-Control "public, proxy-revalidate, max-age=72576000"
+</FilesMatch>
